@@ -16,7 +16,7 @@ import org.json.JSONObject
 import java.lang.Exception
 
 const val url ="https://api.github.com"
-const val paToken = "f73f3785e93b245863245ebb558a61857e786776"
+const val paToken = "USE YOUR TOKEN"
 class ViewModelMain: ViewModel() {
     private val httpClient = AsyncHttpClient()
 
