@@ -1,0 +1,25 @@
+<resources>
+    <!--Application Github User-->
+    <string name="app_name">AGU</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting">Setting</string>
+    <string name="internet">Failed Connect</string>
+    <string name="name">UserName</string>
+    <string name="github_link">GitHubLink</string>
+    <string name="search_gitHu_buser">Search</string>
+    <string name="users">Users </string>
+    <string name="message_error">Search Github Users</string>
+    <string name="following">Following</string>
+    <string name="follower">Followers</string>
+    <string name="find_username">Find Username</string>
+    <string name="username">UserName</string>
+    <string name="fullname">Full Name</string>
+    <string name="city">City</string>
+    <string name="city_img">City Image</string>
+    <string name="location">Location</string>
+    <string name="empty">kosong</string>
+    <string name="zero">0</string>
+    <string name="repository">Repository</string>
+    <string name="separator">Separator</string>
+
+</resources>
