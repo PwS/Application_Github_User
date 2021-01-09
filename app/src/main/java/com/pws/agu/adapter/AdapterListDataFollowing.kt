@@ -22,7 +22,7 @@ class AdapterListDataFollowing (private val listDataFollowing: ArrayList<ModelFo
     inner class ListDataHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(dataFollowing: ModelFollowing) {
             with(itemView) {
-                Glide.with(itemView.context)
+                Glide.with(context)
                     .load(dataFollowing.avatar)
                     .apply(RequestOptions().override(100, 100))
                     .into(user_avatar)

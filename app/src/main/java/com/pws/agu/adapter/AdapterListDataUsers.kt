@@ -25,7 +25,7 @@ class AdapterListDataUsers(private val listDataUsersGithub: ArrayList<ModelUsers
     inner class ListDataHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(modelUsers: ModelUsers) {
             with(itemView) {
-                Glide.with(itemView.context)
+                Glide.with(context)
                     .load(modelUsers.avatar)
                     .apply(RequestOptions().override(100, 100))
                     .into(user_avatar)
