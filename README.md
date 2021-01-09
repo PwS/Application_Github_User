@@ -1,14 +1,17 @@
 # RecycleView - GithubUser With API
 
-##Resource
+## Resource
+```bash
 Search : https://api.github.com/search/users?q={username}
 Detail user : https://api.github.com/users/{username}
 List Follower : https://api.github.com/users/{username}/followers
 List Following : https://api.github.com/users/{username}/following
+```
 
-##RateLimiting
-https://docs.github.com/en/free-pro-team@latest/rest#rate-limiting
-
+## RateLimiting
+```bash
+[GitHub API Rate Limit](https://docs.github.com/en/free-pro-team@latest/rest#rate-limiting)
+```
 
 ## Features
 - [✓] Display Data using RecycleView
