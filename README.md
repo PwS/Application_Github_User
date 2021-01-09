@@ -1,5 +1,15 @@
 # RecycleView - GithubUser With API
 
+##Resource
+Search : https://api.github.com/search/users?q={username}
+Detail user : https://api.github.com/users/{username}
+List Follower : https://api.github.com/users/{username}/followers
+List Following : https://api.github.com/users/{username}/following
+
+##RateLimiting
+https://docs.github.com/en/free-pro-team@latest/rest#rate-limiting
+
+
 ## Features
 - [✓] Display Data using RecycleView
 - [✓] Details page for each data that will contains
@@ -8,7 +18,8 @@
 		[✚] Username
 ```
 - [✓] Search By User
-- [✓] Loading
+- [✓] Progress Bar
+- [✓] Setting -> Change Language
 
 ## Preview
 |<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="300px" height="500px" />|
