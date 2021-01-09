@@ -28,7 +28,10 @@ List Following 	: https://api.github.com/users/{username}/following
 - [✓] Settings -> Change Language
 
 ## Preview
-|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="450px" height="750px" />|
-<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/Search%20By%20User.PNG" width="450px" height="750px" />|
-|:---:|
+|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="450px" height="750px" />|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/Search%20By%20User.PNG" width="450px" height="750px" />|
+|:---:|:---:|
 |HomePage|Search By User|
+
+|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/Detail%20User%20Following.PNG" width="450px" height="750px" />|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/Detail%20User%20Followers.PNG" width="450px" height="750px" />|
+|:---:|:---:|
+|Following|Followers|
