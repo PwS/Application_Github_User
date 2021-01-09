@@ -17,12 +17,18 @@ List Following 	: https://api.github.com/users/{username}/following
 ```bash
 		[✚] Avatar
 		[✚] Username
+		[✚] Company
+		[✚] Location
+		[✚] Rpository
+		[✚] Following
+		[✚] Followers
 ```
 - [✓] Search By User
 - [✓] Progress Bar
 - [✓] Settings -> Change Language
 
 ## Preview
-|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="300px" height="500px" />|
+|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="450px" height="750px" />|
+<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/Search%20By%20User.PNG" width="450px" height="750px" />|
 |:---:|
-|HomePage|
+|HomePage|Search By User|
