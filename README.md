@@ -1,6 +1,6 @@
 # RecycleView - GithubUser With API
 
-<!--Application Github User-->
+Application Github User
 
 ## GitHub REST API
 [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest#rate-limiting) 
