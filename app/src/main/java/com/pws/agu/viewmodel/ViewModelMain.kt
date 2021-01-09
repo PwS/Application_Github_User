@@ -8,6 +8,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.loopj.android.http.AsyncHttpClient
 import com.loopj.android.http.AsyncHttpResponseHandler
+import com.pws.agu.BuildConfig
 import com.pws.agu.model.ModelUsers
 import com.pws.agu.view.activity.MainActivity
 import cz.msebera.android.httpclient.Header
@@ -16,7 +17,8 @@ import org.json.JSONObject
 import java.lang.Exception
 
 const val url ="https://api.github.com"
-const val paToken = "USE YOUR TOKEN"
+const val paToken = BuildConfig.GITHUB_TOKEN;
+
 class ViewModelMain: ViewModel() {
     private val httpClient = AsyncHttpClient()
 
