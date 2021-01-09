@@ -9,3 +9,8 @@
 ```
 - [✓] Search By User
 - [✓] Loading
+
+## Preview
+|<img src="https://raw.githubusercontent.com/PwS/Application_Github_User/master/ImagePreview/HomePage.PNG" width="300px" height="500px" />|
+|:---:|
+|HomePage|
