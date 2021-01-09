@@ -19,13 +19,9 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
-
-        if (supportActionBar != null) {
-            supportActionBar?.title = "Detail User"
-        }
+        supportActionBar?.title = "Detail User"
         setData()
         viewPagerConfig()
-
 
     }
 
