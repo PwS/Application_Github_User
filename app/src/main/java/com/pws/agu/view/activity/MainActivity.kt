@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             ViewModelProvider.NewInstanceFactory()
         ).get(ViewModelMain::class.java)
         try {
-            if (isOnline(applicationContext) !=null) {
+            if (isOnline(this)) {
                 viewConfig()
                 runGetDataGit()
                 searchUser()
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun configMainViewModel(adapter: AdapterListDataUsers) {
-        mainViewModel.getListUsers().observe(this, Observer { listUsers ->
+        mainViewModel.getListUsers().observe(this,  { listUsers ->
             if (listUsers != null) {
                 adapter.setData(listUsers)
                 showLoading(false)
